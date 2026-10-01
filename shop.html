@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tienda | Remate</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Barlow+Condensed:ital,wght@0,700;1,800&display=swap">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-page="shop">
+
+    <header id="hdr"></header>
+
+    <div class="page">
+        <div class="w">
+            <h1>Tienda</h1>
+        </div>
+    </div>
+
+    <section style="padding-top:36px">
+        <div class="w">
+
+            <div class="bar">
+
+                <div id="chips"></div>
+
+                <div>
+                    <span id="count"></span>
+
+                    <select id="sort" aria-label="Ordenar">
+                        <option value="">Ordenar</option>
+                        <option value="asc">Precio: menor a mayor</option>
+                        <option value="desc">Precio: mayor a menor</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="grid" id="grid"></div>
+
+        </div>
+    </section>
+
+    <footer id="ftr"></footer>
+
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
